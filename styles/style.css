@@ -96,10 +96,7 @@ ul{
 
 header{
     background-color: var(--dark-blue-color);
-    position: fixed;
-    top: 0;
-    width: 100%;
-    z-index: 100;
+    margin-bottom: 2em;
 }
 
 .header{
@@ -159,7 +156,6 @@ header{
 /* main */
 
 main{
-    margin-top: 6.5em;
     margin-bottom: 3.125em;
 }
 
@@ -327,8 +323,13 @@ main{
 
 /* menu-section */
 .menu-section{
+    position: sticky;
+    top: 0;
+    z-index: 20;
     margin-top: 1em;
     margin-bottom: 3.8em;
+    padding: 1em 0em;
+    background: var(--white-color);
 }
 
 /* programming */
@@ -416,7 +417,7 @@ main{
 .basketball__img img{
     height: 100%;
     width: 100%;
-    object-fit: cover;
+    object-fit: contain;
 }
 
 /* tennis */
@@ -970,6 +971,7 @@ footer{
 
 /* один эл-т из меню навигации */
 .menu__item {
+    font-family: 'Montserrat', sans-serif;
     background-color: var(--yellow-color);
     padding: 0.5em 2em;
     border-radius: 1em;
@@ -1013,6 +1015,7 @@ footer{
         display: none;
         position: absolute;
         margin-top: 0.5em;
+        z-index: 12;
         
         background-color: var(--yellow-color);
         box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
