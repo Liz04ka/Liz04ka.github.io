@@ -1,0 +1,87 @@
+<footer>
+    <img src="images/лого-сайт.png" alt="логотип" onclick="main.html">
+
+    <span>
+        <section>
+            <p>О нас</p>
+
+            <span>Контакты</span>
+            <span>Адреса</span>
+            <span>Вакансии</span>
+        </section>
+            
+        <section>
+            <p>Для родителей</p>
+
+            <span>Страница для родителей</span>
+            <span>Семейный психолог</span>
+            <span>Телефон для связи</span>
+
+        </section>
+    </span>
+        
+    <div>
+        <p>Мы в соцсетях</p>
+
+        <img src="images/инстаграм.png" alt="инстаграм">
+        <img src="images/тик-ток.png" alt="Тик-Ток">
+        <img src="images/вк.png" alt="ВКонтакте">
+
+    </div>
+    
+</footer>
+
+<style>
+    /*@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500&display=swap');*/
+
+    body {
+        margin: 0;
+    }
+
+    footer {
+        display: flex;
+        align-items: center;
+        background-color: rgba(175, 175, 175, 0.862);
+
+        padding-bottom: 1.4em;
+        font-family: 'Montserrat', sans-serif;
+        margin-top: 3em;
+    }
+
+    footer > span {
+        display: inherit;
+        flex-grow: 1;
+    }
+
+    footer > div {
+        padding-right: 8%;
+    }
+
+    /* для лого */
+    footer > img {
+        width: 110px;
+        padding: 1%;
+
+        margin: 2% 7% 0% 2%;
+        cursor: pointer;
+    }
+
+    /* заголовки */
+    footer > span > section > p, footer > div > p {
+        color: white;
+        font-weight: 600;
+        font-size: large;
+    }
+
+    footer > span > section {
+        display: inherit;
+        flex-direction: column;
+
+        margin-right: 15%;
+    }
+
+    /* иконки с соцсетями */
+    footer > div > img {
+        width: 55px;
+    }
+</style>

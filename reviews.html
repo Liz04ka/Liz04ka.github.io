@@ -1,0 +1,369 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin><link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles/style.css">
+    <script src="scripts/slider.js" defer></script>
+    <title>Я сам! - Отзывы</title>
+</head>
+<body>
+    <header>
+        <div class="header container">
+            <a href="index.html" class="header__logo"> <img src="images/logo.png" alt="логотип" class="logo"></a>
+
+            <nav class="header__nav">
+                <ul class="nav">
+                    <li class="nav__item">
+                        <form>
+                            <input type="search" name="text" class="header__input"> 
+                            <input type="submit" name="submit" class="header__submit" value="Искать">
+                        </form>
+                    </li>
+            
+                    <li class="nav__item"> <a href="reviews.html"> Отзывы </a></li>
+                    <li class="nav__item"> <a href="support.html"> Помощь </a> </li>
+                </ul>
+            </nav>
+    
+            <div class="header__location">
+                <img src="images/locationpng.png" alt="геопозиция">
+                <p>Санкт-Петербург</p> 
+            </div>
+        </div>
+    </header>
+
+    <main>
+        <div class="container">
+            <h2 class="about__title toyz">Что говорят о нас:</h2>
+
+            <section class="reviews__parents product">
+                <p class="fz-23 bold-text">
+                    Родители:
+                </p>
+
+                <div class="poduct__slider">
+
+                    <button class="pre-btn"><img src="images/arrow-slider.png" alt=""></button>
+                    <button class="nxt-btn"><img src="images/arrow-slider.png" alt=""></button>
+    
+                    <div class="product-container">
+    
+                        <!-- карточка с отзывом -->
+                        <div class="product-card">
+    
+                            <!-- шапка отзыва: картинка, имя, оценка -->
+                            <div class="product-header">
+    
+                                <!-- иконка -->
+                                <div class="product-header__img">
+                                    <img src="images/worker-one.png" alt="">
+                                </div>
+    
+                                <!-- рейтинг и имя -->
+                                <div class="product-header__user">
+                                    <p class="minititle">елена</p>
+                                    <div class="product-header__img-reating">
+                                        <img src="images/stars.png" alt="">
+                                    </div>
+                                </div>
+                            </div>
+    
+                            <!-- текст отзыва -->
+                            <div class="product-info">
+                                Очень удобный сервис по подбору кружка для ребенка. Подруга посоветовала, и я посадила сына потыкать и поиграться с сайтом, думала, что сразу убежит, так как станет скучно. Уже пятое занятие ходит на хоккей, спасибо!
+                            </div>
+                        </div>
+    
+    
+                        <!-- карточка с отзывом -->
+                        <div class="product-card">
+    
+                            <!-- шапка отзыва: картинка, имя, оценка -->
+                            <div class="product-header">
+    
+                                <!-- иконка -->
+                                <div class="product-header__img">
+                                    <img src="images/worker-two.png" alt="">
+                                </div>
+    
+                                <!-- рейтинг и имя -->
+                                <div class="product-header__user">
+                                    <p class="minititle">Иван</p>
+                                    <div class="product-header__img-reating">
+                                        <img src="images/stars.png" alt="">
+                                    </div>
+                                </div>
+                            </div>
+    
+                            <!-- текст отзыва -->
+                            <div class="product-info">
+                                Супер сайт! Буду советовать сервис своим друзьям! 
+
+Всё очень удобно и понятно))
+                            </div>
+                        </div>
+    
+    
+                        <!-- карточка с отзывом -->
+                        <div class="product-card">
+    
+                            <!-- шапка отзыва: картинка, имя, оценка -->
+                            <div class="product-header">
+    
+                                <!-- иконка -->
+                                <div class="product-header__img">
+                                    <img src="images/worker-three.png" alt="">
+                                </div>
+    
+                                <!-- рейтинг и имя -->
+                                <div class="product-header__user">
+                                    <p class="minititle">Катя</p>
+                                    <div class="product-header__img-reating">
+                                        <img src="images/stars.png" alt="">
+                                    </div>
+                                </div>
+                            </div>
+    
+                            <!-- текст отзыва -->
+                            <div class="product-info">
+                                Всё супер! Советую этот сайт. Ребенок счастлив
+                            </div>
+                        </div>
+
+                        <div class="product-card">
+    
+                            <!-- шапка отзыва: картинка, имя, оценка -->
+                            <div class="product-header">
+    
+                                <!-- иконка -->
+                                <div class="product-header__img">
+                                    <img src="images/worker-four.png" alt="">
+                                </div>
+    
+                                <!-- рейтинг и имя -->
+                                <div class="product-header__user">
+                                    <p class="minititle">Богдан</p>
+                                    <div class="product-header__img-reating">
+                                        <img src="images/stars.png" alt="">
+                                    </div>
+                                </div>
+                            </div>
+    
+                            <!-- текст отзыва -->
+                            <div class="product-info">
+                                Я в шоке, не представляю как жила без этого сайта, ребенок нашел себе занятие по душе и перестал играть в компьютер целыми днями... Спасибо большое!
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+            </section>
+
+            <section class="reviews__parents product">
+                <p class="fz-23 bold-text">
+                    Дети:
+                </p>
+
+                <div class="poduct__slider">
+
+                    <button class="pre-btn"><img src="images/arrow-slider.png" alt=""></button>
+                    <button class="nxt-btn"><img src="images/arrow-slider.png" alt=""></button>
+    
+                    <div class="product-container">
+    
+                        <!-- карточка с отзывом -->
+                        <div class="product-card">
+    
+                            <!-- шапка отзыва: картинка, имя, оценка -->
+                            <div class="product-header">
+    
+                                <!-- иконка -->
+                                <div class="product-header__img">
+                                    <img src="images/worker-three.png" alt="">
+                                </div>
+    
+                                <!-- рейтинг и имя -->
+                                <div class="product-header__user">
+                                    <p class="minititle">Катя</p>
+                                    <div class="product-header__img-reating">
+                                        <img src="images/stars.png" alt="">
+                                    </div>
+                                </div>
+                            </div>
+    
+                            <!-- текст отзыва -->
+                            <div class="product-info">
+                                Класс! Я теперь хожу на вязание))))))
+                            </div>
+                        </div>
+    
+    
+                        <!-- карточка с отзывом -->
+                        <div class="product-card">
+    
+                            <!-- шапка отзыва: картинка, имя, оценка -->
+                            <div class="product-header">
+    
+                                <!-- иконка -->
+                                <div class="product-header__img">
+                                    <img src="images/worker-one.png" alt="">
+                                </div>
+    
+                                <!-- рейтинг и имя -->
+                                <div class="product-header__user">
+                                    <p class="minititle">максим</p>
+                                    <div class="product-header__img-reating">
+                                        <img src="images/stars.png" alt="">
+                                    </div>
+                                </div>
+                            </div>
+    
+                            <!-- текст отзыва -->
+                            <div class="product-info">
+                                Мне все понравилось, у меня теперь куча новых друзей
+                            </div>
+                        </div>
+    
+    
+                        <!-- карточка с отзывом -->
+                        <div class="product-card">
+    
+                            <!-- шапка отзыва: картинка, имя, оценка -->
+                            <div class="product-header">
+    
+                                <!-- иконка -->
+                                <div class="product-header__img">
+                                    <img src="images/worker-two.png" alt="">
+                                </div>
+    
+                                <!-- рейтинг и имя -->
+                                <div class="product-header__user">
+                                    <p class="minititle">Олег</p>
+                                    <div class="product-header__img-reating">
+                                        <img src="images/stars.png" alt="">
+                                    </div>
+                                </div>
+                            </div>
+    
+                            <!-- текст отзыва -->
+                            <div class="product-info">
+                                Мне все понравилось, у меня теперь куча новых друзей
+                            </div>
+                        </div>
+
+                        <div class="product-card">
+    
+                            <!-- шапка отзыва: картинка, имя, оценка -->
+                            <div class="product-header">
+    
+                                <!-- иконка -->
+                                <div class="product-header__img">
+                                    <img src="images/worker-four.png" alt="">
+                                </div>
+    
+                                <!-- рейтинг и имя -->
+                                <div class="product-header__user">
+                                    <p class="minititle">Алена</p>
+                                    <div class="product-header__img-reating">
+                                        <img src="images/stars.png" alt="">
+                                    </div>
+                                </div>
+                            </div>
+    
+                            <!-- текст отзыва -->
+                            <div class="product-info">
+                                Я в шоке, не представляю как жила без этого сайта, я нашла себе занятие по душе и перестала играть в компьютер целыми днями... Спасибо большое!
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+            </section>
+
+            <section class="offer fz-23">
+                <div class="offer__title bold-text">
+                   Написать отзыв:
+                </div>
+
+                <form action="" class="offer__form">
+                    <p class="offer__input">
+                        <label for="name">Имя</label>
+                        <input type="text" id="name">
+                    </p>
+
+                    <p class="offer__input">
+                        <label for="age">Отзыв</label>
+                        <input type="text" id="age">
+                    </p>
+
+                    <p>Категория</p>
+                    <div class="category">
+                        <div class="gray-btn">
+                            взрослый
+                        </div>
+
+                        <div class="gray-btn">
+                            ребенок
+                        </div>
+                    </div>
+
+                    <div class="category__img">
+                        <img src="images/silent-stars.png" alt="" srcset="">
+                    </div>
+
+
+                    <button class="offer__submit yellow-button_a" type="submit">Отправить</button>
+
+                </form>
+            </section>
+        </div>
+    </main>
+
+    
+    <footer>
+        <div class="footer container">
+            <a href="index.html" class="footer__logo"> 
+                <img src="images/logo.png" alt="логотип" class="logo">
+            </a>
+
+            <ul class="footer__ul">
+                <li><p class="bold-text" >О нас</p></li>
+                <li><a href="contacts.html">Контакты</a></li>
+                <li><a href="vacancy.html">Вакансии</a></li>
+            </ul>
+
+            <ul class="footer__ul">
+                <li><p class="bold-text">Для родителей</p></li>
+                <li><a href="parents.html">Вопросы</a></li>
+                <li><a href="about.html">Об организации</a></li>
+            </ul>
+
+            <div class="footer__social">
+                <p class="bold-text">Мы в соцсетях:</p>
+
+                <div class="social__img">
+
+                    <a href="">
+                        <img src="images/inst.png" alt="">
+                    </a>
+
+                    <a href="">
+                        <img src="images/tiktok.png" alt="">
+                    </a>
+
+                    <a href="">
+                        <img src="images/vk.png" alt="">
+                    </a>
+
+                </div>
+
+            </div>
+        </div>
+    </footer>
+
+    
+</body>
+</html>

@@ -1,0 +1,314 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin><link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600;700&display=swap" rel="stylesheet">
+    <script src="scripts/show.js" defer></script>
+    <link rel="stylesheet" href="styles/style.css">
+    <title>Я Сам!</title>
+</head>
+<body>
+
+    <header>
+        <div class="header container">
+            <a href="index.html" class="header__logo"> <img src="images/logo.png" alt="логотип" class="logo"></a>
+
+            <nav class="header__nav">
+                <ul class="nav">
+                    <li class="nav__item">
+                        <form>
+                            <input type="search" name="text" class="header__input"> 
+                            <a href="football.html"> Искать </a>
+                        </form>
+                    </li>
+            
+                    <li class="nav__item"> <a href="reviews.html"> Отзывы </a></li>
+                    <li class="nav__item"> <a href="support.html"> Помощь </a> </li>
+                </ul>
+            </nav>
+    
+            <div class="header__location">
+                <img src="images/locationpng.png" alt="геопозиция">
+                <p>Санкт-Петербург</p> 
+            </div>
+        </div>
+    </header>
+
+    <main>
+        <div class="container">
+
+            <section class="welcome">
+                <div class="welcome__img">
+                    <img src="images/ПИС222.gif" alt="">
+
+                    <div class="welcome__img-mes">
+                        <img src="images/персонаж приветствует.png" alt="">
+                    </div>
+                </div>
+            </section>
+
+            <section class="choice" id="choice">
+                <p class="choice__subtitle subtitle">Выбирай:)</p>
+                <h2 class="choice__title toyz">мне нравится</h2>
+
+                <img class="choice__arrow" src="images/arrow.png" alt="нарисованная стрелка">
+            </section>
+
+
+            <nav class="menu-section menu__main">
+
+                <!-- список -->
+                <ul class="menu">
+    
+                    <li class="menu__element">
+                        <button class="menu__item">кодить</button>
+                
+                        <div class="dropdown">
+                            <a href="coding.html">показать все</a>
+                            <a href="coding.html#python">программирование на Python</a>
+                            <a href="coding.html#robot">робототехника</a>
+                            <a href="coding.html#animate">анимация</a>
+                        </div>
+                    </li>
+                
+                    <li>
+                        <button class="menu__item">спорт</button>
+                                
+                        <div class="dropdown">
+                            <a href="sport.html">показать все</a>
+                            <a href="sport.html#volleyball">волейбол</a>
+                            <a href="sport.html#football">футбол</a>
+                            <a href="sport.html#basketball">баскетбол</a>
+                            <a href="sport.html#tennis">теннис</a>
+                            <a href="sport.html#hockey">хоккей</a>
+                            <a href="sport.html#karate">каратэ</a>
+                            <a href="sport.html#boxing">бокс</a>
+                        </div>
+                    </li>
+                
+                    <li>
+                        <button class="menu__item"> музыка</button>
+                
+                        <div class="dropdown">
+                            <a href="music.html">показать все</a>
+                            <a href="music.html#sing">петь</a>
+                            <a href="music.html#gitar">играть на гитаре</a>
+                            <a href="music.html#piano">играть на фортепиано</a>
+                            <a href="music.html#violin">играть на скрипке</a>
+                        </div>
+                    </li>
+                
+                    <li>
+                        <button class="menu__item"> рукоделие</button>
+                
+                         <div class="dropdown">
+                            <a href="craft.html">показать все</a>
+                
+                            <a href="craft.html#crochet">вязание</a>
+                            <a href="craft.html#clay">лепка из глины</a>
+                            <a href="craft.html#draw">художественная школа</a>
+                            <a href="craft.html#cook">курсы готовки</a>
+                        </div>
+                    </li>
+                
+                    <li>
+                        <button class="menu__item">сцена</button>
+                
+                        <div class="dropdown">
+                            <a href="scene.html">показать все</a>
+                            <a href="scene.html#casting">кастинги</a>
+                            <a href="scene.html#course">актерские курсы</a>
+                        </div>
+                    </li>
+                
+                </ul>
+    
+            </nav>
+
+            <section class="next">
+                <p class="subtitle">ГЛЯНЬ, ЧТО НОВОГО В ТВОЕМ ГОРОДЕ</p>
+                <img class="arrows" src="images/arrows.png" alt="стрелка-листатель вниз">
+            </section>
+
+            <section class="news">
+                <h2 class="news__title toyz">новости</h2>
+
+                <div class="news__card">
+
+                    <div class="news-card__text">
+                        <div class="news-card__title">
+                            <img src="images/галочка.png" alt="">
+                            <h3 class="minititle">АКТЕР?</h3>
+                        </div>
+    
+                        <div class="news-card__descr">
+                            <p class="news-card__descr-bold">Или хочешь им стать?</p>
+                            <p>Пробы в твоем городе</p>
+                        </div>
+
+                        <div class="news-card__more display-none">
+                            <div class="support__content">
+                                <ul class="football__ul">
+                                    <li><span class="bold-text">тел:</span>+7 (999) 9999 99</li>
+                                    <li><span class="bold-text">адрес:</span> ул. Ленина 15, Дворец культуры</li>
+                                    <li><span class="bold-text">даты:</span> 12.01 - 30.01, ПН-СР-ПТ, 10:00 - 15:00</li>
+                                </ul>
+                            </div>
+                        </div>
+    
+                        
+                        <button class="news-card__button">Подробнее</button>
+                    
+                    </div>
+
+                    <div class="news-card__img">
+                        <img src="images/actor.png" alt="">
+                    </div>
+                </div>
+
+                <div class="news__card news-card__left">
+
+                    <div class="news-card__text">
+                        <div class="news-card__title">
+                            <img src="images/галочка.png" alt="">
+                            <h3 class="minititle">Волейбол!</h3>
+                        </div>
+    
+                        <div class="news-card__descr">
+                            <p class="news-card__descr-bold">ОТКРЫТЫЕ СОРЕВНОВАНИЯ</p>
+                            <p>сходи — присмотрись, поболей</p>
+                        </div>
+
+                        <div class="news-card__more display-none">
+                            <div class="support__content">
+                                <ul class="football__ul">
+                                    <li><span class="bold-text">тел:</span>+7 (999) 9999 99</li>
+                                    <li><span class="bold-text">адрес:</span> ул. Ленина 15, Дворец культуры</li>
+                                    <li><span class="bold-text">даты:</span> 12.01 - 30.01, ПН-СР-ПТ, 10:00 - 15:00</li>
+                                </ul>
+                            </div>
+                        </div>
+    
+                        <button class="news-card__button" href="sport_page.html#volleyball">Подробнее</button>
+                    </div>
+
+                    <div class="news-card__img">
+                        <img src="images/волейбол.png" alt="">
+                    </div>
+                </div>
+
+                <div class="news__card">
+
+                    <div class="news-card__text">
+                        <div class="news-card__title">
+                            <img src="images/галочка.png" alt="">
+                            <h3 class="minititle">футбол!</h3>
+                        </div>
+    
+                        <div class="news-card__descr">
+                            <p class="news-card__descr-bold">набор детей в спортшколу </p>
+                            <p>8-9 лет, м. Приморская</p>
+                        </div>
+    
+                        <div class="news-card__more display-none">
+                            <div class="support__content">
+                                <ul class="football__ul">
+                                    <li><span class="bold-text">тел:</span>+7 (999) 9999 99</li>
+                                    <li><span class="bold-text">адрес:</span> ул. Ленина 15, Дворец культуры</li>
+                                    <li><span class="bold-text">даты:</span> 12.01 - 30.01, ПН-СР-ПТ, 10:00 - 15:00</li>
+                                </ul>
+                            </div>
+                        </div>
+
+                        <button class="news-card__button" href="sport_page.html#football">Подробнее</button>
+
+                    </div>
+
+                    <div class="news-card__img">
+                        <img src="images/футбол.png" alt="">
+                    </div>
+                </div>
+
+                <div class="news__card news-card__left">
+
+                    <div class="news-card__text">
+                        <div class="news-card__title">
+                            <img src="images/галочка.png" alt="">
+                            <h3 class="minititle">АКТЕР?</h3>
+                        </div>
+    
+                        <div class="news-card__descr">
+                            <p>В Санкт-Петербурге проходит набор детей для массовки в клип
+                                <b>Дани Милохина</b></p>
+                        </div>
+    
+                        <div class="news-card__more display-none">
+               
+                                <ul class="football__ul">
+                                    <li><span class="bold-text">тел:</span>+7 (999) 9999 99</li>
+                                    <li><span class="bold-text">адрес:</span> ул. Ленина 15, Дворец культуры</li>
+                                    <li><span class="bold-text">даты:</span> 12.01 - 30.01, ПН-СР-ПТ, 10:00 - 15:00</li>
+                                </ul>
+                           
+                        </div>
+
+                        <button class="news-card__button" href="scene.html#casting">Подробнее</button>
+
+                    </div>
+                </div>
+            </section>
+
+            <div class="yellow-button">
+                <a class="yellow-button_a" href="result.html">
+                    Я знаю, чем хочу заниматься!
+                </a>
+            </div>
+
+        </div>
+    </main>
+
+
+    <footer>
+        <div class="footer container">
+            <a href="index.html" class="footer__logo"> 
+                <img src="images/logo.png" alt="логотип" class="logo">
+            </a>
+
+            <ul class="footer__ul">
+                <li><p class="bold-text" >О нас</p></li>
+                <li><a href="contacts.html">Контакты</a></li>
+                <li><a href="vacancy.html">Вакансии</a></li>
+            </ul>
+
+            <ul class="footer__ul">
+                <li><p class="bold-text">Для родителей</p></li>
+                <li><a href="parents.html">Вопросы</a></li>
+                <li><a href="about.html">Об организации</a></li>
+            </ul>
+
+            <div class="footer__social">
+                <p class="bold-text">Мы в соцсетях:</p>
+
+                <div class="social__img">
+
+                    <a href="">
+                        <img src="images/inst.png" alt="">
+                    </a>
+
+                    <a href="">
+                        <img src="images/tiktok.png" alt="">
+                    </a>
+
+                    <a href="">
+                        <img src="images/vk.png" alt="">
+                    </a>
+
+                </div>
+
+            </div>
+        </div>
+    </footer>
+</body>
+</html>

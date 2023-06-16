@@ -1,0 +1,95 @@
+<header>
+    <a href="main.html"><img src="images/лого-сайт.png" alt="логотип" class="logo"></a>
+    <ul>
+        <li>
+            <form>
+                <input type="search" name="q" placeholder="Поиск по сайту"> 
+                <input type="submit" value="Искать">
+            </form>
+        </li>
+
+        <li>Отзывы</li>
+        <li>Помощь</li>
+    </ul>
+
+    <img src="images/геопозиция.png" alt="геопозиция">
+    <p>Санкт-Петербург</p> 
+
+</header>
+
+<style>
+    
+    /*@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500&display=swap');*/
+
+    body {
+        margin: 0;
+    }
+
+    header {
+        background-color: rgb(187, 187, 187);
+
+        display: flex;
+        align-items: center;
+
+        font-family: 'Montserrat', sans-serif;
+        margin-bottom: 1em;
+    }
+
+    header > ul {
+        flex-grow: 1;
+        display: inherit;
+        flex-flow: row nowrap;
+        list-style: none;
+    }
+
+    header > ul > li {
+        margin-right: 8%;
+    }
+
+    .logo {
+        width: 80px;
+        padding: 1%;
+        margin-left: 1%;
+        cursor: pointer;
+    }
+
+    header > p {
+        padding-right: 1.5%;
+        color: #50B1A3;
+        font-weight: 500;
+    }
+
+    header > a > img, header > img {
+        width: 25px;
+        margin-right: 1%;
+    }
+
+    input[type="submit"], header > ul > li {
+        color: white;
+        font-weight: 600;
+
+        font-size: 16px;
+        cursor: pointer;
+    }
+
+    input[type="search"], input[type="submit"] {
+        font-family: inherit;
+    }
+
+    input[type="submit"] {
+        background-color: unset;
+        border: 0
+    }
+
+    input[type="search"] {
+        border: 0;
+        border-radius: 10px;
+
+        padding: 2% 0% 2% 0%;
+        outline: none;
+    }
+
+    input[type="search"]::placeholder {
+        padding-left: 3%;
+} 
+</style>
